@@ -6,7 +6,7 @@ const app = express();
 
 app.use( cors() );
 
-app.use( express.static( path.join( __dirname, 'lib' ) ) );
+app.use( express.static( path.join( __dirname, 'docs' ) ) );
 
 
 app.listen( 3010, () => {

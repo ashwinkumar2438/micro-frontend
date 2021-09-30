@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "watch": "npx babel src --out-dir lib --ignore src/setup.js --watch",
-    "build": "NODE_ENV=production npx babel src --out-dir lib && browserify ./src/setup.js > ./lib/setup.js"
+    "watch": "npx babel src --out-dir docs --ignore src/setup.js --watch",
+    "build": "NODE_ENV=production npx babel src --out-dir docs && browserify ./src/setup.js > ./docs/setup.js"
   },
   "keywords": [],
   "author": "",
